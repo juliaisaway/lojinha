@@ -1,21 +1,25 @@
 <?php
-    $file = file_get_contents("produtos/produtos.json");
-    $produtos = json_decode($file, FALSE);
+    $config_file = file_get_contents("config.json");
+    $product_file = file_get_contents("produtos/produtos.json");
+
+    $config = json_decode($config_file, FALSE);
+    $products = json_decode($product_file, FALSE);
 ?>
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Lojilto - A Lojinha do Ilto</title>
+    <title><?= $config->site_name ?></title>
     
     <!-- Metatags básicas do site -->
     <meta charset="UTF-8">
     <meta http-equiv="content-language" content="pt-br">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Lojinha de itens a venda do Ilton. Espaço de desapego do Ilton.">
+    <meta name="keywords" content="Lojinha de itens a venda do Ilton. Espaço de desapego do Ilton.">
 
     <!-- Metatags para redes sociais -->
-    <meta property="og:title" content="Lojilto - A Lojinha do Ilto">
-    <meta property="og:description" content="Lojinha de itens a venda do Ilton. Aqui, anuncio tudo que está parado em casa e gostaria de passar pra frente.">
+    <meta property="og:title" content="<?= $config->site_name ?>">
+    <meta property="og:description" content="<?= $config->metatags->description ?>">
     <meta property="og:url" content="http://ilton.me/loja">
     <meta property='og:image' content='http://ilton.me/lojinha/img/thumbnail.jpg'>
     <meta name="twitter:card" content="summary_large_image">
@@ -39,11 +43,13 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
     <link rel="stylesheet" href="css/style.css">
 
     <!--  Inserções de Javascript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.5/isotope.pkgd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
 </head>
 <body>
 
@@ -69,10 +75,12 @@
         <div class="container">
             <div id="isotope" class="row">
                 
-                <?php foreach($produtos as $row){ ?>
+                <?php foreach($products as $row){ ?>
                     <div class="col-md-4 sortable" data-id="<?= $row->id ?>">
                         <div class="produto">
-                            <div class="image" style="background-image: url('img/<?= $row->image ?>')" title="<?= $row->name ?>"></div>
+                            <a href="img/<?= $row->image ?>" class="image-popup">
+                                <div class="image" style="background-image: url('img/<?= $row->image ?>')" title="<?= $row->name ?>"></div>
+                            </a>
                             <div class="desc">
 
                                 <ul class="tags">
@@ -85,7 +93,7 @@
                                 <h3><?= $row->name ?></h3>
                                 <h4>R$ <?= $row->price ?></h4>
                                 <p><?= $row->description ?></p>
-                                <a href="<?= $row->links->link ?>'" target="_blank"><i class="fa fa-external-link"></i> <?= $row->links->local ?></a>
+                                <a href="<?= $row->links->link ?>" target="_blank"><i class="fa fa-external-link"></i> <?= $row->links->local ?></a>
 
                             </div>
                         </div>
@@ -95,7 +103,6 @@
             </div>
         </div>
     </section>
-
 
     <footer>
         <div class="container">
@@ -111,6 +118,13 @@
     $(function(){
         $('#isotope').isotope({
             itemSelector : '.sortable'
+        });
+        $('.image-popup').magnificPopup({
+            type: 'image',
+            closeOnContentClick: true,
+            image: {
+                verticalFit: true
+            }
         });
     });
 </script>
