@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "name": "Notebook Dell Inspiron i15",
+    "price": 3000,
+    "image": "notebook_dell.jpg",
+    "tags": [
+      "informatica",
+      "eletronicos"
+    ],
+    "description": "Máquina em perfeito estado. Processador Intel Core i5-5200 8GB RAM DDR3 SSD Kingston 240GB HD 1TB Secundário Drive de DVD separado (removido para colocar o segundo HD).",
+    "links": {
+      "local": "Veja mais na OLX",
+      "link": "http://sp.olx.com.br/regiao-de-sorocaba/computadores-e-acessorios/notebook-dell-inspiron-i15-457243180"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Guitarra Strinberg c/ Floyd Rose e Captador Customizado",
+    "price": 600,
+    "image": "guitar.jpg",
+    "tags": [
+      "musica"
+    ],
+    "description": "Guitarra Strinberg em ótimo estado, possui ponte Floyd Rose e cordas NIG 0.9. O captador humbucker foi trocado por um DiMarzio Steve's Special. Acompanha também suporte para deixar a guitarra de pé.",
+    "links": {
+      "local": "Veja mais na OLX",
+      "link": "http://sp.olx.com.br/regiao-de-sorocaba/instrumentos-musicais/guitarra-strinberg-c-floyd-rose-e-captador-customizado-459983933"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Amplificador Marshall MG-10cd",
+    "price": 350,
+    "image": "amp_marshall.jpg",
+    "tags": [
+      "musica"
+    ],
+    "description": "Amplificador para ensaios, 10 watts de potência, 110 Volts. Tudo funcionando perfeitamente em ambos os canais.",
+    "links": {
+      "local": "Veja mais na OLX",
+      "link": "http://sp.olx.com.br/regiao-de-sorocaba/instrumentos-musicais/amplificador-marshall-mg-10cd-459988295"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Amplificador Meteoro Nitrous 100g",
+    "price": 600,
+    "image": "amp_meteoro.jpg",
+    "tags": [
+      "musica"
+    ],
+    "description": "Amplificador para estúdio/shows da Meteoro. Possui dois falantes de 10'. Canal Overdrive com problemas (som falha), porém o canal Limpo está perfeito.",
+    "links": {
+      "local": "Veja mais na OLX",
+      "link": "http://sp.olx.com.br/regiao-de-sorocaba/instrumentos-musicais/amplificador-meteoro-nitrous-100g-459989713"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Pedal Wah Behringer Hell Babe",
+    "price": 200,
+    "image": "pedal_wah.jpg",
+    "tags": [
+      "musica"
+    ],
+    "description": "Pedal Behringer Hell Babe para Wah. Pouco uso. Não acompanha fonte.",
+    "links": {
+      "local": "Veja mais na OLX",
+      "link": "http://sp.olx.com.br/regiao-de-sorocaba/instrumentos-musicais/pedal-wah-behringer-hell-babe-459984965"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Pedal Behringer Overdrive/Distortion OD300",
+    "price": 150,
+    "image": "pedal_overdrive.png",
+    "tags": [
+      "musica"
+    ],
+    "description": "Pedal de Overdrive e Distorção Behringer. Pouco uso, em perfeito estado. Não acompanha fonte.",
+    "links": {
+      "local": "Veja mais na OLX",
+      "link": "http://sp.olx.com.br/regiao-de-sorocaba/instrumentos-musicais/pedal-behringer-overdrive-distortion-od300-459987542"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Pedal Behringer GDI-21",
+    "price": 150,
+    "image": "pedal_gdi.jpg",
+    "tags": [
+      "musica"
+    ],
+    "description": "Pedal simulador de amplificadores Behringer GDI-21, clone do famoso SansAmp GT2. Em perfeito estado, pouco uso. Não acompanha fonte.",
+    "links": {
+      "local": "Veja mais na OLX",
+      "link": "http://sp.olx.com.br/regiao-de-sorocaba/instrumentos-musicais/pedal-behringer-gdi-21-459986875"
+    }
+  }
+]

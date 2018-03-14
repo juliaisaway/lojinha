@@ -1,0 +1,45 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "title": "Produto",
+  "description": "Um produto da Lojinha do Ilto",
+  "type": "object",
+  "properties": {
+    "id": {
+      "description": "Identificador único do produto",
+      "type": "integer"
+    },
+    "name": {
+      "description": "Nome do produto",
+      "type": "string"
+    },
+    "price": {
+      "type": "number",
+      "exclusiveMinimum": 0
+    },
+    "image": {
+      "description": "Imagem do produto",
+      "type": "string"
+    },
+    "description": {
+      "description": "Descrição do produto",
+      "type": "string"
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "links": {
+      "type": "object",
+      "properties": {
+        "local": {"type": "string"},
+        "link": {"type": "string"}
+      },
+      "required": ["local", "link"]
+    },
+  },
+  "required": ["id", "name", "price"]
+}

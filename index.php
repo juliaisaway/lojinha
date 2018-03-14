@@ -1,4 +1,7 @@
-<?php require_once('produtos.php') ?>
+<?php
+    $amg = file_get_contents("produtos/produtos.json");
+    $produtos = json_decode($amg, FALSE);
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -38,6 +41,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
 
+    <!--  Inserções de Javascript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.5/isotope.pkgd.min.js"></script>
 </head>
@@ -55,8 +59,8 @@
                     <a href="http://twitter.com/iltoisaway"><i class="fa fa-twitter"></i> Siga-me no Twitter</a>
                     </div>
                 </div>
-            </div>
 
+            </div>
         </div>
     </header>
 
@@ -65,14 +69,23 @@
             <div id="isotope" class="row">
                 
                 <?php foreach($produtos as $row){ ?>
-                    <div class="col-md-4 sortable">
+                    <div class="col-md-4 sortable" data-id="<?= $row->id ?>">
                         <div class="produto">
-                            <div class="image" style="background-image: url('img/<?= $row['foto'] ?>')"></div>
+                            <div class="image" style="background-image: url('img/<?= $row->image ?>')" title="<?= $row->name ?>"></div>
                             <div class="desc">
-                                <h3><?= $row['nome'] ?></h2>
-                                <h4>R$ <?= $row['valor'] ?></h3>
-                                <p><?= $row['desc'] ?></p>
-                                <a href="<?= $row['link_externo'] ?>'" target="_blank"><i class="fa fa-external-link"></i> Ver mais na OLX</a>
+
+                                <ul class="tags">
+                                    <li><i class="fa fa-tags"></i></li>
+                                    <?php foreach($row->tags as $tags){ ?>
+                                        <li><?= $tags ?></li>
+                                    <?php } ?>
+                                </ul>
+
+                                <h3><?= $row->name ?></h3>
+                                <h4>R$ <?= $row->price ?></h4>
+                                <p><?= $row->description ?></p>
+                                <a href="<?= $row->links->link ?>'" target="_blank"><i class="fa fa-external-link"></i> <?= $row->links->local ?></a>
+
                             </div>
                         </div>
                     </div>
@@ -96,12 +109,10 @@
 <script>
     $(function(){
         $('#isotope').isotope({
-            itemSelector : '.sortable',
+            itemSelector : '.sortable'
         });
     });
 </script>
-</script>
-
 
 </body>
 </html>

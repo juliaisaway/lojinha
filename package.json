@@ -1,0 +1,18 @@
+{
+  "name": "lojinha_php",
+  "title": "Mini Lojinha",
+  "version": "1.1",
+  "private": true,
+  "description": "Plataforma em PHP para a criação de uma vitrine de produtos, de forma elegante e simples.",
+  "keywords": [
+    "loja virtual", "ecommerce", "vitrine", "produtos", "PHP", "JSON"
+  ],
+  "main": "index.php",
+  "author": "Ilton Alberto Junior",
+  "license": "MPL-2.0",
+  "homepage": "http://ilton.me/lojinha",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iltonjr/lojinha.git"
+  }
+}

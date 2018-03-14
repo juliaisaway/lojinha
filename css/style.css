@@ -134,10 +134,34 @@ a {
 	.produto p {
 		margin: 0 0 15px;
 		color: #666;
-		font-size: 14px;
+		font-size: 13px;
 		font-weight: 400;
 		font-family: 'Open Sans', sans-serif;
 	}
+
+	.produto a {
+		font-size: 14px;
+	}
+
+	.produto ul {
+		padding: 0;
+		margin: 15px 0;
+		display: flex;
+		align-items: center;
+		justify-content: flex-start;
+	}
+
+	.produto li {
+		list-style: none;
+		display: inline-flex;
+		padding: 0 5px;
+		font-size: 12px;
+		color: #333;
+	}
+
+		.produto li:first-child {
+			margin-left: 0;
+		}
 
 footer {
 	margin: 60px 0 30px;
