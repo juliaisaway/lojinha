@@ -1,11 +1,11 @@
 <?php
-    $amg = file_get_contents("produtos/produtos.json");
-    $produtos = json_decode($amg, FALSE);
+    $file = file_get_contents("produtos/produtos.json");
+    $produtos = json_decode($file, FALSE);
 ?>
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Lojinha do Ilto</title>
+    <title>Lojilto - A Lojinha do Ilto</title>
     
     <!-- Metatags básicas do site -->
     <meta charset="UTF-8">
@@ -14,7 +14,7 @@
     <meta name="description" content="Lojinha de itens a venda do Ilton. Espaço de desapego do Ilton.">
 
     <!-- Metatags para redes sociais -->
-    <meta property="og:title" content="Lojinha do Ilto">
+    <meta property="og:title" content="Lojilto - A Lojinha do Ilto">
     <meta property="og:description" content="Lojinha de itens a venda do Ilton. Aqui, anuncio tudo que está parado em casa e gostaria de passar pra frente.">
     <meta property="og:url" content="http://ilton.me/loja">
     <meta property='og:image' content='http://ilton.me/lojinha/img/thumbnail.jpg'>
@@ -52,11 +52,12 @@
             <div class="row">
 
                 <div class="col-md-8 offset-md-2">
-                    <h1>Lojinha do Ilto</h1>
+                    <h1>Lojilto - A Lojinha do Ilto</h1>
                     <h2>Espaço de desapego do Ilton.<br>Aqui, anuncio tudo que está parado em casa e gostaria de passar pra frente.</h2>
                     <div class="links-spacing">
-                        <a href="mailto:eu@ilton.me"><i class="fa fa-envelope-o"></i> Entre em contato comigo</a>
-                    <a href="http://twitter.com/iltoisaway"><i class="fa fa-twitter"></i> Siga-me no Twitter</a>
+                        <a href="mailto:eu@ilton.me" target="_blank"><i class="fa fa-envelope-o"></i> Entre em contato</a>
+                        <a href="http://twitter.com/iltoisaway" target="_blank"><i class="fa fa-twitter"></i> Siga-me no Twitter</a>
+                        <a href="https://telegram.me/iltonalberto" target="_blank"><i class="fa fa-telegram"></i> Manda um Telegram</a>
                     </div>
                 </div>
 
@@ -100,7 +101,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8 offset-md-2">
-                    <h2>Site desenvolvido por <a href="http://ilton.me">Ilton Alberto Junior</a>. Todos os direitos reservados.</h2>
+                    <h2>Mini Lojinha desenvolvida por <a href="http://ilton.me">Ilton Alberto Junior</a>. Projeto OpenSource no <a href="https://github.com/iltonjr/lojinha" target="_blank">GitHub</a></h2>
                 </div>
             </div>
         </div>
