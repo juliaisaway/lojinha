@@ -7,7 +7,7 @@
 
             $prods = <<<HERE
 
-    <div class="col-md-4 sortable" data-id="{$row->id}">
+    <div class="col-md-4 sortable">
             <div class="produto">
                 <a href="img/{$row->image}" class="image-popup">
                     <div class="image" style='background-image: url("img/{$row->image}")' title="{$row->name}"></div>
@@ -42,22 +42,5 @@ HERE;
     ?>
 </div>
 
-<script>
-    $(function(){
-
-        // Inicializa o Isotopo de mosaico do site
-        $('#isotope').isotope({
-            itemSelector : '.sortable'
-        });
-
-        // Inicializa o plugin de overlay de imagens
-        $('.image-popup').magnificPopup({
-            type: 'image',
-            closeOnContentClick: true,
-            image: {
-                verticalFit: true
-            }
-        });
-
-    })
-</script>
+<!-- Scripts relativos a Lojinha -->
+<script src="js/produtos.js"></script>
