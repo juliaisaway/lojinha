@@ -4,9 +4,7 @@
     "name": "Notebook Dell Inspiron i15",
     "price": 3000,
     "image": "eletronicos/notebook_dell.jpg",
-    "tags": [
-      "eletronicos"
-    ],
+    "tags":"eletronicos",
     "description": "Máquina em perfeito estado. Processador Intel Core i5-5200 8GB RAM DDR3 SSD Kingston 240GB HD 1TB Secundário Drive de DVD separado (removido para colocar o segundo HD).",
     "links": {
       "local": "Veja mais na OLX",
@@ -18,9 +16,7 @@
     "name": "Guitarra Strinberg c/ Floyd Rose e Captador Customizado",
     "price": 600,
     "image": "musica/guitar.jpg",
-    "tags": [
-      "musica"
-    ],
+    "tags": "musica",
     "description": "Guitarra Strinberg em ótimo estado, possui ponte Floyd Rose e cordas NIG 0.9. O captador humbucker foi trocado por um DiMarzio Steve's Special. Acompanha também suporte para deixar a guitarra de pé.",
     "links": {
       "local": "Veja mais na OLX",
@@ -32,9 +28,7 @@
     "name": "Amplificador Marshall MG-10cd",
     "price": 350,
     "image": "musica/amp_marshall.jpg",
-    "tags": [
-      "musica"
-    ],
+    "tags": "musica",
     "description": "Amplificador para ensaios, 10 watts de potência, 110 Volts. Tudo funcionando perfeitamente em ambos os canais.",
     "links": {
       "local": "Veja mais na OLX",
@@ -46,9 +40,7 @@
     "name": "Amplificador Meteoro Nitrous 100g",
     "price": 600,
     "image": "musica/amp_meteoro.jpg",
-    "tags": [
-      "musica"
-    ],
+    "tags": "musica",
     "description": "Amplificador para estúdio/shows da Meteoro. Possui dois falantes de 10'. Canal Overdrive com problemas (som falha), porém o canal Limpo está perfeito.",
     "links": {
       "local": "Veja mais na OLX",
@@ -60,9 +52,7 @@
     "name": "Pedal Wah Behringer Hell Babe",
     "price": 200,
     "image": "musica/pedal_wah.jpg",
-    "tags": [
-      "musica"
-    ],
+    "tags": "musica",
     "description": "Pedal Behringer Hell Babe para Wah. Pouco uso. Não acompanha fonte.",
     "links": {
       "local": "Veja mais na OLX",
@@ -74,9 +64,7 @@
     "name": "Pedal Behringer Overdrive/Distortion OD300",
     "price": 150,
     "image": "musica/pedal_overdrive.png",
-    "tags": [
-      "musica"
-    ],
+    "tags": "musica",
     "description": "Pedal de Overdrive e Distorção Behringer. Pouco uso, em perfeito estado. Não acompanha fonte.",
     "links": {
       "local": "Veja mais na OLX",
@@ -88,9 +76,7 @@
     "name": "Pedal Behringer GDI-21",
     "price": 150,
     "image": "musica/pedal_gdi.jpg",
-    "tags": [
-      "musica"
-    ],
+    "tags": "musica",
     "description": "Pedal simulador de amplificadores Behringer GDI-21, clone do famoso SansAmp GT2. Em perfeito estado, pouco uso. Não acompanha fonte.",
     "links": {
       "local": "Veja mais na OLX",
@@ -102,9 +88,7 @@
     "name": "Série de Livros Scott Pilgrim",
     "price": 50,
     "image": "livros/scott_pilgrim.jpg",
-    "tags": [
-      "livros"
-    ],
+    "tags": "livros",
     "description": "Coleção completa Scott Pilgrim - Edição Nacional. 3 livros em perfeito estado de conservação.",
     "links": {
       "local": "Manda um email",
@@ -116,9 +100,7 @@
     "name": "Série de Livros O Guia do Mochileiro das Galáxias",
     "price": 50,
     "image": "livros/guia_mochileiro.jpg",
-    "tags": [
-      "livros"
-    ],
+    "tags": "livros",
     "description": "Coleção com os 5 primeiros volumes da série O Guia do Mochileiro das Galáxias (apenas os livros canônicos). Todos em perfeito estado de conservação.",
     "links": {
       "local": "Manda um email",
@@ -130,9 +112,7 @@
     "name": "Livro 1001 Discos para ouvir antes de morrer",
     "price": 15,
     "image": "livros/1001_discos.jpg",
-    "tags": [
-      "livros"
-    ],
+    "tags": "livros",
     "description": "Primeira edição do fascículo 1001 Discos para Ouvir antes de morrer. Em bom estado de conservação.",
     "links": {
       "local": "Manda um email",
@@ -144,9 +124,7 @@
     "name": "Livro de bolso A Divina Comédia",
     "price": 10,
     "image": "livros/divina_comedia.jpg",
-    "tags": [
-      "livros"
-    ],
+    "tags": "livros",
     "description": "Edição de bolso do clássico de Dante Alighieri, versão em português e escrito em poemas. Em perfeito estado de conservação.",
     "links": {
       "local": "Manda um email",
@@ -158,9 +136,7 @@
     "name": "Livro Enciclopédia Metallica",
     "price": 10,
     "image": "livros/enciclopedia_metallica.jpg",
-    "tags": [
-      "livros"
-    ],
+    "tags": "livros",
     "description": "Enciclopédia sobre a banda Metallica, desde as origens, bastidores, origens de músicas, etc. Em perfeito estado de conservação.",
     "links": {
       "local": "Manda um email",
@@ -172,9 +148,7 @@
     "name": "Livro Use a Cabeça - jQuery",
     "price": 15,
     "image": "livros/jquery.jpg",
-    "tags": [
-      "livros"
-    ],
+    "tags": "livros",
     "description": "Livro sobre Desenvolvimento jQuery para iniciantes, muito bem explicativo e fácil de entender. Em perfeito estado de conservação.",
     "links": {
       "local": "Manda um email",
@@ -186,9 +160,7 @@
     "name": "Livro A Menina que Roubava Livros",
     "price": 10,
     "image": "livros/menina_livros.jpg",
-    "tags": [
-      "livros"
-    ],
+    "tags": "livros",
     "description": "Livro Best Seller contando a história de uma garota alemã no meio da segunda guerra mundial. Em perfeito estado de conservação.",
     "links": {
       "local": "Manda um email",
@@ -200,9 +172,7 @@
     "name": "Livro Piadas Nerds",
     "price": 10,
     "image": "livros/piadas_nerds.jpg",
-    "tags": [
-      "livros"
-    ],
+    "tags": "livros",
     "description": "Primeira edição do livro de piadinhas nerds retiradas do Twitter. Meu nome está creditado no livro :v. Em perfeito estado de conservação.",
     "links": {
       "local": "Manda um email",
@@ -214,9 +184,7 @@
     "name": "Livro Vivendo Entre Soldados",
     "price": 10,
     "image": "livros/vivendo_soldados.jpg",
-    "tags": [
-      "livros"
-    ],
+    "tags": "livros",
     "description": "Livro que conta relatos reais da segunda guerra sob a visão dos soldados Sorocabanos da FEB. Em perfeito estado de conservação.",
     "links": {
       "local": "Manda um email",
