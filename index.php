@@ -1,5 +1,5 @@
 <?php
-    $config_file = file_get_contents("config.json");
+    $config_file = file_get_contents("config/config.json");
     $config = json_decode($config_file, FALSE);
 ?>
 <!DOCTYPE html>
@@ -112,7 +112,7 @@
         function getProds(category) {
             $.ajax({
                 type: 'GET',
-                url: 'produtos/produtos.php',
+                url: 'produtos.php',
                 data: {'category': category},
                 success: function (data) {
                     $('#prods').fadeOut('slow', function () {

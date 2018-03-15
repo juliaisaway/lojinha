@@ -1,0 +1,77 @@
+[
+  {
+    "name": "Livro Capa Dura Jojonion Vol. 1",
+    "price": 30,
+    "image": "livros/jojo.jpg",
+    "tags": "livros",
+    "description": "Primeiro volume da edição americana de luxo Jojonion, contendo a primeira parte do arco Phantom Blood. Edição em inglês.",
+    "links": {
+      "local": "Manda um email",
+      "link": "mailto:eu@ilton.me"
+    },
+    "reservado": "Bia Julian"
+  },
+  {
+    "name": "Livro Repeteco",
+    "price": 15,
+    "image": "livros/repeteco.jpg",
+    "tags": "livros",
+    "description": "Livro do mesmo autor de Scott Pilgrim, contando uma história mais adulta, mas ainda em formato de quadrinhos. Em bom estado de conservação.",
+    "links": {
+      "local": "Manda um email",
+      "link": "mailto:eu@ilton.me"
+    }
+  },
+  {
+    "name": "Livro Enciclopédia Metallica",
+    "price": 10,
+    "image": "livros/enciclopedia_metallica.jpg",
+    "tags": "livros",
+    "description": "Enciclopédia sobre a banda Metallica, desde as origens, bastidores, origens de músicas, etc. Em perfeito estado de conservação.",
+    "links": {
+      "local": "Manda um email",
+      "link": "mailto:eu@ilton.me"
+    },
+    "reservado": "Bia Julian"
+  },
+  {
+    "id": 13,
+    "name": "Livro Bilionários por Acaso",
+    "price": 10,
+    "image": "livros/bilionarios_acaso.jpg",
+    "tags": [
+      "livros"
+    ],
+    "description": "Livro contando a história de Mark Zuckerberg e as origens do Facebook. Em perfeito estado de conservação.",
+    "links": {
+      "local": "Manda um email",
+      "link": "mailto:eu@ilton.me"
+    },
+    "reservado": "Anderson NX"
+  },
+  {
+    "id": 15,
+    "name": "Livro Enciclopédia Metallica",
+    "price": 10,
+    "image": "livros/enciclopedia_metallica.jpg",
+    "tags": "livros",
+    "description": "Enciclopédia de A a Z com tudo relacionado ao Metallica, desde as origens, bastidores, origens de músicas, etc. Em perfeito estado de conservação.",
+    "links": {
+      "local": "Manda um email",
+      "link": "mailto:eu@ilton.me"
+    },
+    "reservado": "Tales Brondani"
+  },
+  {
+    "name": "Série de Livros Scott Pilgrim",
+    "price": 50,
+    "image": "livros/scott_pilgrim.jpg",
+    "tags": "livros",
+    "description": "Coleção completa Scott Pilgrim - Edição Nacional. 3 livros em perfeito estado de conservação.",
+    "links": {
+      "local": "Manda um email",
+      "link": "mailto:eu@ilton.me"
+    },
+    "reservado": "Fernanda Atayde"
+  }
+]

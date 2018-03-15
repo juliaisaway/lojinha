@@ -1,6 +1,6 @@
 <div id="isotope" class="prods-holder">
     <?php
-        $product_file = file_get_contents("../produtos/produtos.json");
+        $product_file = file_get_contents("config/produtos.json");
         $products = json_decode($product_file, FALSE);
 
         foreach($products as $row) {

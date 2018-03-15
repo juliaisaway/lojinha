@@ -4,10 +4,6 @@
   "description": "Um produto da Lojinha do Ilto",
   "type": "object",
   "properties": {
-    "id": {
-      "description": "Identificador único do produto",
-      "type": "integer"
-    },
     "name": {
       "description": "Nome do produto",
       "type": "string"
