@@ -8,5 +8,25 @@
     "keywords": "loja, ilton, vitrine digital, ilton alberto junior",
     "color": "#333",
     "thumbnail": "img/thumbnail.jpg"
-  }
+  },
+  "contact": [
+    {
+      "name": "email",
+      "desc": "Entre em contato",
+      "link": "mailto:eu@ilton.me",
+      "icon": "fa-envelope-o"
+    },
+    {
+      "name": "twitter",
+      "desc": "Siga-me no Twitter",
+      "link": "http://twitter.com/iltoisaway",
+      "icon": "fa-twitter"
+    },
+    {
+      "name": "telegram",
+      "desc": "Manda um Telegram",
+      "link": "https://telegram.me/iltonalberto",
+      "icon": "fa-telegram"
+    }
+  ]
 }

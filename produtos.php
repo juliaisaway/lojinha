@@ -1,6 +1,6 @@
 <div id="isotope" class="prods-holder">
     <?php
-        $product_file = file_get_contents("config/produtos.json");
+        $product_file = file_get_contents("config/products.json");
         $products = json_decode($product_file, FALSE);
 
         foreach($products as $row) {
@@ -9,14 +9,14 @@
 
     <div class="col-md-4 sortable">
             <div class="produto">
-                <a href="img/{$row->image}" class="image-popup">
-                    <div class="image" style='background-image: url("img/{$row->image}")' title="{$row->name}"></div>
+                <a href="img/{$row->category}/{$row->image}" class="image-popup">
+                    <div class="image" style='background-image: url("img/{$row->category}/{$row->image}")' title="{$row->name}"></div>
                 </a>
                 <div class="desc">
 
                     <ul class="tags">
                         <li><i class="fa fa-tags"></i></li>
-                        <li>{$row->tags}</li>
+                        <li>{$row->category}</li>
                     </ul>
 
                     <h3>{$row->name}</h3>
@@ -31,7 +31,7 @@
 HERE;
 
             if(isset($_GET['category'])) {
-                if ($_GET['category'] === $row->tags)
+                if ($_GET['category'] === $row->category)
                     echo $prods;
                 if ($_GET['category'] === 'todos')
                     echo $prods;

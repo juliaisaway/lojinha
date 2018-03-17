@@ -1,6 +1,6 @@
 <?php
-$config_file = file_get_contents("config/config.json");
-$config = json_decode($config_file, FALSE);
+    $config_file = file_get_contents("config/config.json");
+    $config = json_decode($config_file, FALSE);
 ?>
 <head>
     <title><?= $config->site_name ?></title>

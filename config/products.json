@@ -1,0 +1,277 @@
+[
+  {
+    "name": "Guitarra Strinberg c/ Floyd Rose e Captador Customizado",
+    "price": 600,
+    "image": "guitar.jpg",
+    "category": "musica",
+    "description": "Guitarra Strinberg em ótimo estado, possui ponte Floyd Rose e cordas NIG 0.9. O captador humbucker foi trocado por um DiMarzio Steve's Special. Acompanha também suporte para deixar a guitarra de pé.",
+    "links": {
+      "local": "Veja mais na OLX",
+      "link": "http://sp.olx.com.br/regiao-de-sorocaba/instrumentos-musicais/guitarra-strinberg-c-floyd-rose-e-captador-customizado-459983933"
+    }
+  },
+  {
+    "name": "Amplificador Marshall MG-10cd",
+    "price": 350,
+    "image": "amp_marshall.jpg",
+    "category": "musica",
+    "description": "Amplificador para ensaios, 10 watts de potência, 110 Volts. Tudo funcionando perfeitamente em ambos os canais.",
+    "links": {
+      "local": "Veja mais na OLX",
+      "link": "http://sp.olx.com.br/regiao-de-sorocaba/instrumentos-musicais/amplificador-marshall-mg-10cd-459988295"
+    }
+  },
+  {
+    "name": "Amplificador Meteoro Nitrous 100g",
+    "price": 600,
+    "image": "amp_meteoro.jpg",
+    "category": "musica",
+    "description": "Amplificador para estúdio/shows da Meteoro. Possui dois falantes de 10'. Canal Overdrive com problemas (som falha), porém o canal Limpo está perfeito.",
+    "links": {
+      "local": "Veja mais na OLX",
+      "link": "http://sp.olx.com.br/regiao-de-sorocaba/instrumentos-musicais/amplificador-meteoro-nitrous-100g-459989713"
+    }
+  },
+  {
+    "name": "Pedal Wah Behringer Hell Babe",
+    "price": 200,
+    "image": "pedal_wah.jpg",
+    "category": "musica",
+    "description": "Pedal Behringer Hell Babe para Wah. Pouco uso. Não acompanha fonte.",
+    "links": {
+      "local": "Veja mais na OLX",
+      "link": "http://sp.olx.com.br/regiao-de-sorocaba/instrumentos-musicais/pedal-wah-behringer-hell-babe-459984965"
+    }
+  },
+  {
+    "name": "Pedal Behringer Overdrive/Distortion OD300",
+    "price": 150,
+    "image": "pedal_overdrive.png",
+    "category": "musica",
+    "description": "Pedal de Overdrive e Distorção Behringer. Pouco uso, em perfeito estado. Não acompanha fonte.",
+    "links": {
+      "local": "Veja mais na OLX",
+      "link": "http://sp.olx.com.br/regiao-de-sorocaba/instrumentos-musicais/pedal-behringer-overdrive-distortion-od300-459987542"
+    }
+  },
+  {
+    "name": "Pedal Behringer GDI-21",
+    "price": 150,
+    "image": "pedal_gdi.jpg",
+    "category": "musica",
+    "description": "Pedal simulador de amplificadores Behringer GDI-21, clone do famoso SansAmp GT2. Em perfeito estado, pouco uso. Não acompanha fonte.",
+    "links": {
+      "local": "Veja mais na OLX",
+      "link": "http://sp.olx.com.br/regiao-de-sorocaba/instrumentos-musicais/pedal-behringer-gdi-21-459986875"
+    }
+  },
+  {
+    "name": "Série de Livros O Guia do Mochileiro das Galáxias",
+    "price": 50,
+    "image": "guia_mochileiro.jpg",
+    "category": "livros",
+    "description": "Coleção com os 5 primeiros volumes da série O Guia do Mochileiro das Galáxias (apenas os livros canônicos). Todos em perfeito estado de conservação.",
+    "links": {
+      "local": "Manda um email",
+      "link": "mailto:eu@ilton.me"
+    }
+  },
+  {
+    "name": "Série de Livros Assassin's Creed",
+    "price": 50,
+    "image": "assassins_creed.jpg",
+    "category": "livros",
+    "description": "Dois primeiros livros da série de jogos Assassin's Creed. Todos em perfeito estado de conservação.",
+    "links": {
+      "local": "Manda um email",
+      "link": "mailto:eu@ilton.me"
+    }
+  },
+  {
+    "name": "Livro 1001 Discos para ouvir antes de morrer",
+    "price": 15,
+    "image": "1001_discos.jpg",
+    "category": "livros",
+    "description": "Primeira edição do fascículo 1001 Discos para Ouvir antes de morrer. Em bom estado de conservação.",
+    "links": {
+      "local": "Manda um email",
+      "link": "mailto:eu@ilton.me"
+    }
+  },
+  {
+    "name": "Livro de bolso A Divina Comédia",
+    "price": 10,
+    "image": "divina_comedia.jpg",
+    "category": "livros",
+    "description": "Edição de bolso do clássico de Dante Alighieri, versão em português e escrito em poemas. Em perfeito estado de conservação.",
+    "links": {
+      "local": "Manda um email",
+      "link": "mailto:eu@ilton.me"
+    }
+  },
+  {
+    "name": "Livro Use a Cabeça - jQuery",
+    "price": 15,
+    "image": "jquery.jpg",
+    "category": "livros",
+    "description": "Livro sobre Desenvolvimento jQuery para iniciantes, muito bem explicativo e fácil de entender. Em perfeito estado de conservação.",
+    "links": {
+      "local": "Manda um email",
+      "link": "mailto:eu@ilton.me"
+    }
+  },
+  {
+    "name": "Livro A Menina que Roubava Livros",
+    "price": 10,
+    "image": "menina_livros.jpg",
+    "category": "livros",
+    "description": "Livro Best Seller contando a história de uma garota alemã no meio da segunda guerra mundial. Em perfeito estado de conservação.",
+    "links": {
+      "local": "Manda um email",
+      "link": "mailto:eu@ilton.me"
+    }
+  },
+  {
+    "name": "Livro Piadas Nerds",
+    "price": 10,
+    "image": "piadas_nerds.jpg",
+    "category": "livros",
+    "description": "Primeira edição do livro de piadinhas nerds retiradas do Twitter. Meu nome está creditado no livro :v. Em perfeito estado de conservação.",
+    "links": {
+      "local": "Manda um email",
+      "link": "mailto:eu@ilton.me"
+    }
+  },
+  {
+    "name": "Livro Vivendo Entre Soldados",
+    "price": 10,
+    "image": "vivendo_soldados.jpg",
+    "category": "livros",
+    "description": "Livro que conta relatos reais da segunda guerra sob a visão dos soldados Sorocabanos da FEB. Em perfeito estado de conservação.",
+    "links": {
+      "local": "Manda um email",
+      "link": "mailto:eu@ilton.me"
+    }
+  },
+  {
+    "name": "Livro Vivendo Entre Soldados",
+    "price": 10,
+    "image": "vivendo_soldados.jpg",
+    "category": "livros",
+    "description": "Livro que conta relatos reais da segunda guerra sob a visão dos soldados Sorocabanos da FEB. Em perfeito estado de conservação.",
+    "links": {
+      "local": "Manda um email",
+      "link": "mailto:eu@ilton.me"
+    }
+  },
+  {
+    "name": "Miniatura Pop Funko Tracer - Overwatch",
+    "price": 50,
+    "image": "funko_tracer.jpg",
+    "category": "miniaturas",
+    "description": "Miniatura Funko da Tracer, do jogo Overwatch. Miniatura original, não acompanha caixa.",
+    "links": {
+      "local": "Manda um email",
+      "link": "mailto:eu@ilton.me"
+    }
+  },
+  {
+    "name": "RPG Dungeons & Dragons 5e - Player's Handbook",
+    "price": 110,
+    "image": "dnd_5e.jpg",
+    "category": "rpgs",
+    "description": "Livro do Jogador da Quinta Edição de Dungeons & Dragons. Edição em inglês.",
+    "links": {
+      "local": "Manda um email",
+      "link": "mailto:eu@ilton.me"
+    }
+  },
+  {
+    "name": "RPG Star Wars - Fronteira do Império + Escudo do Mestre",
+    "price": 180,
+    "image": "starwars_fronteira.jpg",
+    "category": "rpgs",
+    "description": "RPG de Star Wars da Fantasy Flight, tendo junto o Livro do Jogador, Livro do Mestre e Bestiário. Acompanha também Escudo do Mestre, Kit de Dados e a primeira aventura inicial. Edição em Português pela Galápagos.",
+    "links": {
+      "local": "Manda um email",
+      "link": "mailto:eu@ilton.me"
+    }
+  },
+  {
+    "name": "RPG A Guerra dos Tronos",
+    "price": 20,
+    "image": "gameofthrones_rpg.jpg",
+    "category": "rpgs",
+    "description": "Livro básico do sistema de RPG A Guerra dos Tronos em português, contendo tudo que precisa para jogar. Edição em Português.",
+    "links": {
+      "local": "Manda um email",
+      "link": "mailto:eu@ilton.me"
+    }
+  },
+  {
+    "name": "Board Game Magic the Gathering - Arena of the Planeswalkers",
+    "price": 180,
+    "image": "mtg_arena.jpg",
+    "category": "boardgames",
+    "description": "Board Game do jogo Magic The Gathering, com miniaturas táticas. Acompanha caixa organizadora. Em inglês.",
+    "links": {
+      "local": "Manda um email",
+      "link": "mailto:eu@ilton.me"
+    }
+  },
+  {
+    "name": "Board Game Shadowrun Crossfire",
+    "price": 180,
+    "image": "shadowrun_crossfire.jpg",
+    "category": "boardgames",
+    "description": "Deck building cooperativo baseado no RPG Shadowrun. Edição em português.",
+    "links": {
+      "local": "Manda um email",
+      "link": "mailto:eu@ilton.me"
+    }
+  },
+  {
+    "name": "Board Game Elder Sign",
+    "price": 120,
+    "image": "elder_sign.jpg",
+    "category": "boardgames",
+    "description": "Board Game de dados baseado no universo de Cthulhu Mythos, de H.P. Lovecraft. Edição em português.",
+    "links": {
+      "local": "Manda um email",
+      "link": "mailto:eu@ilton.me"
+    }
+  },
+  {
+    "name": "Board Game Sim Mestre das Trevas",
+    "price": 50,
+    "image": "sim_mestre.jpg",
+    "category": "boardgames",
+    "description": "Party game divertido de interação social e interpretação. Primeira edição em português. Acompanha sleeves.",
+    "links": {
+      "local": "Manda um email",
+      "link": "mailto:eu@ilton.me"
+    }
+  },
+  {
+    "name": "Board Game Deck Building - The Deck Building",
+    "price": 30,
+    "image": "deck_building.jpg",
+    "category": "boardgames",
+    "description": "Deck building para duas pessoas bem simples e rápido e com uma ideia bem boba. Edição em inglês, sem dependência de idioma. Acompanha sleeves.",
+    "links": {
+      "local": "Manda um email",
+      "link": "mailto:eu@ilton.me"
+    }
+  },
+  {
+    "name": "Board Game Jenga",
+    "price": 30,
+    "image": "jenga.jpg",
+    "category": "boardgames",
+    "description": "Clássico e divertido jogo de equilíbrio de torres de madeira. Edição original da Hasbro.",
+    "links": {
+      "local": "Manda um email",
+      "link": "mailto:eu@ilton.me"
+    }
+  }
+]

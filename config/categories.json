@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Eletrônicos",
+    "slug": "eletronicos",
+    "active": false
+  },
+  {
+    "name": "Música",
+    "slug": "musica",
+    "active": true
+  },
+  {
+    "name": "Livros",
+    "slug": "livros",
+    "active": true
+  },
+  {
+    "name": "RPGs",
+    "slug": "rpgs",
+    "active": true
+  },
+  {
+    "name": "Board Games",
+    "slug": "boardgames",
+    "active": true
+  },
+  {
+    "name": "Miniaturas",
+    "slug": "miniaturas",
+    "active": true
+  }
+]
