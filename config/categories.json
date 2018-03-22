@@ -5,6 +5,11 @@
     "active": false
   },
   {
+    "name": "Vídeo Games",
+    "slug": "videogames",
+    "active": true
+  },
+  {
     "name": "Música",
     "slug": "musica",
     "active": true

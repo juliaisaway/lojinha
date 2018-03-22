@@ -57,5 +57,13 @@
     "category": "livros",
     "description": "Coleção completa Scott Pilgrim - Edição Nacional. 3 livros em perfeito estado de conservação.",
     "reservado": "Fernanda Atayde"
+  },
+  {
+    "name": "RPG Star Wars - Fronteira do Império + Escudo do Mestre",
+    "price": 180,
+    "image": "starwars_fronteira.jpg",
+    "category": "rpgs",
+    "description": "RPG de Star Wars da Fantasy Flight, tendo junto o Livro do Jogador, Livro do Mestre e Bestiário. Acompanha também Escudo do Mestre, Kit de Dados e a primeira aventura inicial. Edição em Português pela Galápagos.",
+    "reservado": "Luca Malato"
   }
 ]

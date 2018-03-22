@@ -154,17 +154,6 @@
     }
   },
   {
-    "name": "Livro Vivendo Entre Soldados",
-    "price": 10,
-    "image": "vivendo_soldados.jpg",
-    "category": "livros",
-    "description": "Livro que conta relatos reais da segunda guerra sob a visão dos soldados Sorocabanos da FEB. Em perfeito estado de conservação.",
-    "links": {
-      "local": "Manda um email",
-      "link": "mailto:eu@ilton.me"
-    }
-  },
-  {
     "name": "Miniatura Pop Funko Tracer - Overwatch",
     "price": 50,
     "image": "funko_tracer.jpg",
@@ -187,22 +176,33 @@
     }
   },
   {
-    "name": "RPG Star Wars - Fronteira do Império + Escudo do Mestre",
-    "price": 180,
-    "image": "starwars_fronteira.jpg",
+    "name": "RPG A Guerra dos Tronos",
+    "price": 20,
+    "image": "gameofthrones_rpg.jpg",
     "category": "rpgs",
-    "description": "RPG de Star Wars da Fantasy Flight, tendo junto o Livro do Jogador, Livro do Mestre e Bestiário. Acompanha também Escudo do Mestre, Kit de Dados e a primeira aventura inicial. Edição em Português pela Galápagos.",
+    "description": "Livro básico do sistema de RPG A Guerra dos Tronos em português, contendo tudo que precisa para jogar. Edição em Português.",
     "links": {
       "local": "Manda um email",
       "link": "mailto:eu@ilton.me"
     }
   },
   {
-    "name": "RPG A Guerra dos Tronos",
-    "price": 20,
-    "image": "gameofthrones_rpg.jpg",
-    "category": "rpgs",
-    "description": "Livro básico do sistema de RPG A Guerra dos Tronos em português, contendo tudo que precisa para jogar. Edição em Português.",
+    "name": "Video Game Nintendo DS Lite",
+    "price": 250,
+    "image": "nintendo_ds.jpg",
+    "category": "videogames",
+    "description": "Video game na cor azul, funcionando perfeitamente. Vem na Caixa original junto com Carregador + Cartucho Acekard + Cartucho Pokemon Emerald + Case para transporte.",
+    "links": {
+      "local": "Manda um email",
+      "link": "mailto:eu@ilton.me"
+    }
+  },
+  {
+    "name": "Jogo Guitar Hero Live Xbox One",
+    "price": 200,
+    "image": "guitarhero_xone.jpg",
+    "category": "videogames",
+    "description": "Jogo Guitar Hero Live para Xbox One. Acompanha guitarra original + receptor para o console.",
     "links": {
       "local": "Manda um email",
       "link": "mailto:eu@ilton.me"
